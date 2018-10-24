@@ -113,6 +113,11 @@
 		  "main":"dist/vue-go-back-top.js", //他人使用时通过 import {GoTop} from "vue-go-back-top" 使用时，npm默认加载的入口文件位置，必须正确配置。否则会出现安装成功但找不到包的情况
           ...
           }
+7. 发布到npm
+
+	      npm login
+	      npm publish
+8. 收到邮件，大功告成！！！
 
 ## 参考文献
 
