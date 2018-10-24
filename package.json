@@ -1,22 +1,20 @@
 {
   "name": "vue-go-back-top",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue移动端返回顶部组件",
   "author": "wangminghuan",
   "license": "MIT",
   "keywords": [
-    "component",
     "vue",
-    "form",
-    "element-ui",
-    "auto"
+    "goTop",
+    "backTop"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/wangminghuan/vue-go-back-top"
   },
   "private": false,
-  "main":"dist/static/vue-go-back-top.js",
+  "main":"dist/vue-go-back-top.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
