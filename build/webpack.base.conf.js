@@ -3,17 +3,14 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-
+const isProduction = process.env.NODE_ENV === 'production';
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
-
-
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './src/main.js'
+    app: isProduction?'./src/index.js':'./src/main.js'
   },
   output: {
     path: config.build.assetsRoot,

@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name:"vue-go-back-top",
   data() {
     return {
       isShow: false,

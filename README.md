@@ -1,21 +1,38 @@
 # vue-go-back-top
 
 > vue移动端返回顶部组件
+# 说明
 
-## Build Setup
+组件只有一个功能点击返回顶部
 
-``` bash
-# install dependencies
-npm install
+# 预览
 
-# serve with hot reload at localhost:8080
-npm run dev
+![demo](https://i.imgur.com/uNdhfpi.gif)
 
-# build for production with minification
-npm run build
+# 使用
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+    import {GoTop} from "vue-go-back-top";
+    //或
+    import GoTop from "vue-go-back-top";
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+    Vue.component(GoTop.name, GoTop)  
+    //或
+    Vue.use(GoTop)  
+
+
+
+
+
+
+## 项目运行
+
+### 安装
+	npm install
+
+### 本地运行
+	npm run dev
+
+### 构建发布
+	npm run build
+
+
